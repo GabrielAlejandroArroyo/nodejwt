@@ -418,5 +418,24 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "f7d14ced-e2c5-401c-89df-848b6ad356ae",
+    "colId": "c08c4b3b-7808-4dd3-a069-c8367f39e4d8",
+    "containerId": "",
+    "name": "Get Nueva Ruta",
+    "url": "192.168.1.75:3000/nueva-ruta",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-22T15:30:04.486Z",
+    "modified": "2022-08-22T17:50:38.569Z",
+    "headers": [
+      {
+        "name": "api",
+        "value": "123"
+      }
+    ],
+    "params": [],
+    "tests": []
   }
 ]

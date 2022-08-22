@@ -40,5 +40,12 @@
     "created": "2022-08-19T21:06:26.246Z",
     "sortNum": 25000,
     "folders": []
+  },
+  {
+    "_id": "c08c4b3b-7808-4dd3-a069-c8367f39e4d8",
+    "colName": "ruta",
+    "created": "2022-08-22T15:30:04.481Z",
+    "sortNum": 40000,
+    "folders": []
   }
 ]

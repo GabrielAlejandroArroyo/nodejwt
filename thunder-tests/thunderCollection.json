@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "colName": "users",
+    "created": "2022-08-09T14:35:24.835Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "colName": "products",
+    "created": "2022-08-09T14:35:34.269Z",
+    "sortNum": 20000,
+    "folders": []
+  },
+  {
+    "_id": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "colName": "customers",
+    "created": "2022-08-19T16:57:00.664Z",
+    "sortNum": 15000,
+    "folders": []
+  },
+  {
+    "_id": "19668fb5-dcdb-4bc8-bdf0-e0e3455cb9e6",
+    "colName": "products Copy",
+    "created": "2022-08-19T19:52:40.432Z",
+    "sortNum": 30000,
+    "folders": []
+  },
+  {
+    "_id": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "colName": "Categories",
+    "created": "2022-08-19T19:52:46.972Z",
+    "sortNum": 30000,
+    "folders": []
+  },
+  {
+    "_id": "241f0292-b782-40ab-b085-81450b14653b",
+    "colName": "orders",
+    "created": "2022-08-19T21:06:26.246Z",
+    "sortNum": 25000,
+    "folders": []
+  }
+]

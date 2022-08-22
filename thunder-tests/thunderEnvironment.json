@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "acd2c0ad-d16e-48f5-89e6-2d07cbc36c47",
+    "name": "(Global Env)",
+    "default": false,
+    "global": true,
+    "sortNum": -1,
+    "created": "2022-08-09T14:38:02.964Z",
+    "modified": "2022-08-09T14:40:27.534Z",
+    "data": [
+      {
+        "name": "HostEndpoint",
+        "value": "http://192.168.1.75:3000/api/v1"
+      }
+    ]
+  },
+  {
+    "_id": "cd3c3c72-1171-48f4-823b-4e90ad69d9f5",
+    "name": "(Local Env)",
+    "default": false,
+    "global": true,
+    "local": true,
+    "sortNum": -2,
+    "created": "2022-08-09T14:38:43.867Z",
+    "modified": "2022-08-09T14:38:43.867Z",
+    "data": []
+  }
+]

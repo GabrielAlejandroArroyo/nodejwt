@@ -1,0 +1,422 @@
+[
+  {
+    "_id": "9bd1af3c-8f5c-4a19-885d-b6b93ca68496",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "GET Users",
+    "url": "{{HostEndpoint}}/users",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-09T14:41:40.610Z",
+    "modified": "2022-08-09T14:42:08.086Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "555ff5f6-2a82-4ba3-a621-003894d36d04",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products",
+    "url": "{{HostEndpoint}}/products",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-09T14:42:58.818Z",
+    "modified": "2022-08-09T14:43:21.485Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b0297f46-2e51-4b98-9690-c6e0cbbbe080",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Create User",
+    "url": "{{HostEndpoint}}/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-09T23:10:44.113Z",
+    "modified": "2022-08-19T18:10:57.797Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"GabrielArroyo32@gmail.com\",\n  \"password\": \"12345678\",\n  \"role\":\"customer\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2db8990a-8141-4e5e-80ee-e100b4e7b447",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Get User",
+    "url": "{{HostEndpoint}}/users/1",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-09T23:15:24.525Z",
+    "modified": "2022-08-19T13:31:32.254Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7c039289-3a2c-4ce6-a64f-70cc5c6a26b8",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Update User",
+    "url": "{{HostEndpoint}}/users/3",
+    "method": "PATCH",
+    "sortNum": 30000,
+    "created": "2022-08-09T23:17:15.402Z",
+    "modified": "2022-08-09T23:20:53.502Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"maosa@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "22f8246b-35cd-4307-9a42-c3a7b3b1726a",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Delete User",
+    "url": "{{HostEndpoint}}/users/5",
+    "method": "DELETE",
+    "sortNum": 17500,
+    "created": "2022-08-09T23:22:55.894Z",
+    "modified": "2022-08-09T23:24:01.635Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e9bbf5e6-b373-4549-8daa-477b9bf19b44",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "GET Customers",
+    "url": "{{HostEndpoint}}/customers",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T16:57:00.670Z",
+    "modified": "2022-08-19T16:58:02.689Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bd8dd0ed-2bd7-4459-a7f7-75ee4246e0dd",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Get Customer",
+    "url": "{{HostEndpoint}}/customers/1",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T16:57:00.672Z",
+    "modified": "2022-08-19T17:36:42.661Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "009eae6e-6f74-46d6-963a-8967bbd90789",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Delete Customer",
+    "url": "{{HostEndpoint}}/users/5",
+    "method": "DELETE",
+    "sortNum": 17500,
+    "created": "2022-08-19T16:57:00.673Z",
+    "modified": "2022-08-19T16:57:00.673Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "19aefa95-62ad-4c25-9da0-07e846cf9a7d",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Create Customer",
+    "url": "{{HostEndpoint}}/customers",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T16:57:00.674Z",
+    "modified": "2022-08-19T18:53:26.689Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hector\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"Hector@mail.com\",\n    \"password\" : \"121212\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c593f588-7d5a-47ba-8c57-092fdf0e3b4d",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Update Customer",
+    "url": "{{HostEndpoint}}/customers/3",
+    "method": "PATCH",
+    "sortNum": 30000,
+    "created": "2022-08-19T16:57:00.675Z",
+    "modified": "2022-08-19T18:16:10.982Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"maosa@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cae79959-9c88-4bbc-91df-8d9994edc374",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Get Categories",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T19:52:46.978Z",
+    "modified": "2022-08-19T19:53:29.318Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "03fd2855-a020-416b-b205-ed468c9ed97e",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Create Categorie",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T19:53:34.436Z",
+    "modified": "2022-08-22T15:10:27.916Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"Categoria 2\",\n  \"image\":\"http://placeimg.com/640/480\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9e43838d-9e03-4aad-8cec-6981f1df20fa",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Create Products",
+    "url": "{{HostEndpoint}}/products",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T20:01:47.266Z",
+    "modified": "2022-08-19T23:37:28.394Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"producto 17\",\n  \"price\": 122,\n  \"description\":\" producto 17\",\n  \"image\":\"http:/placeing.com/640/480\",\n  \"categoryId\": 3\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9a9af305-d02f-4c89-83c8-8bd4800a571d",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Get Category",
+    "url": "{{HostEndpoint}}/categories/10",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T20:17:43.701Z",
+    "modified": "2022-08-19T20:27:39.418Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "89dfb624-f485-4e25-8f35-2ec5dd1056b3",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Product",
+    "url": "{{HostEndpoint}}/products/10",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T20:29:02.844Z",
+    "modified": "2022-08-19T20:29:21.434Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "93197a62-0e7e-4b25-a9fa-912f03981f2f",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Get Orders",
+    "url": "{{HostEndpoint}}/orders",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T21:06:26.251Z",
+    "modified": "2022-08-19T21:18:36.376Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f9502993-f916-4f7d-b14e-f06b5707cd0e",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Get Order",
+    "url": "{{HostEndpoint}}/orders/4",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T21:06:26.252Z",
+    "modified": "2022-08-19T23:08:34.619Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f739422d-f885-4045-b14b-8d687860078d",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Create Order",
+    "url": "{{HostEndpoint}}/orders",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T21:06:26.253Z",
+    "modified": "2022-08-19T21:17:20.396Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customerId\": 1\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3d419006-4f32-421b-b91a-cb5d8cea270d",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Add Items Order",
+    "url": "{{HostEndpoint}}/orders/add-item",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-08-19T23:03:24.792Z",
+    "modified": "2022-08-19T23:07:16.644Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orderId\": 4,\n  \"productId\": 2,\n  \"amount\":3\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2df89865-5a78-4c0d-ae60-f648a7b451f0",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products paginados",
+    "url": "{{HostEndpoint}}/products?limit=5&offset=5",
+    "method": "GET",
+    "sortNum": 12500,
+    "created": "2022-08-19T23:38:37.564Z",
+    "modified": "2022-08-19T23:41:34.776Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "5",
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "5",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "aea52ac6-1ada-43b2-b8f7-8fcf3ac229c4",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products paginados por precio",
+    "url": "{{HostEndpoint}}/products?price=300",
+    "method": "GET",
+    "sortNum": 13750,
+    "created": "2022-08-19T23:54:25.622Z",
+    "modified": "2022-08-20T00:00:51.544Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "5",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price",
+        "value": "300",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "861a3cdf-6efc-49bf-b73d-25f7768f7d51",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products paginados por rango precio",
+    "url": "{{HostEndpoint}}/products?price_min=40&price_max=100",
+    "method": "GET",
+    "sortNum": 14375,
+    "created": "2022-08-20T00:13:35.509Z",
+    "modified": "2022-08-20T00:16:14.427Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "5",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price",
+        "value": "300",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price_min",
+        "value": "40",
+        "isPath": false
+      },
+      {
+        "name": "price_max",
+        "value": "100",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

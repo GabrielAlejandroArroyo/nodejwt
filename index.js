@@ -10,6 +10,8 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
+require('./utils/auth');
+
 const whitelist = ['http://localhost:8080', 'https://myapp.co'];
 const options = {
   origin: (origin, callback) => {
@@ -21,6 +23,8 @@ const options = {
   }
 }
 app.use(cors(options));
+
+
 
 app.get('/', (req, res) => {
   res.send('Hola mi server en express');

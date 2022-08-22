@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-09T23:10:44.113Z",
-    "modified": "2022-08-19T18:10:57.797Z",
+    "modified": "2022-08-22T18:45:03.957Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"GabrielArroyo32@gmail.com\",\n  \"password\": \"12345678\",\n  \"role\":\"customer\"\n}",
+      "raw": "{\n  \"email\": \"superAdmin@gmail.com\",\n  \"password\": \"12345678 .2020\",\n  \"role\":\"admin\"\n}",
       "form": []
     },
     "tests": []
@@ -144,12 +144,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-19T16:57:00.674Z",
-    "modified": "2022-08-19T18:53:26.689Z",
+    "modified": "2022-08-22T18:52:35.530Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"Hector\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"Hector@mail.com\",\n    \"password\" : \"121212\"\n  }\n}",
+      "raw": "{\n  \"name\": \"mirtha\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"mirtha@mail.com\",\n    \"password\" : \"121212\"\n  }\n}",
       "form": []
     },
     "tests": []
@@ -436,6 +436,30 @@
       }
     ],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ce97d659-c398-4195-bddc-59398782fc53",
+    "colId": "640bd05d-aba2-4218-98df-ed672bc1b946",
+    "containerId": "",
+    "name": "Post Login",
+    "url": "{{HostEndpoint}}/auth/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-08-22T20:45:27.787Z",
+    "modified": "2022-08-22T21:15:14.644Z",
+    "headers": [
+      {
+        "name": "api",
+        "value": "33234"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"superAdmin@gmail.com\",\n  \"password\": \"12345678 .2020\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

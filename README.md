@@ -34,3 +34,8 @@ http://keygen.io/
 estartegia passport-jwt
 
 npm install passport-jwt
+
+
+Libreria para manejo de access control
+
+https://www.npmjs.com/package/accesscontrol

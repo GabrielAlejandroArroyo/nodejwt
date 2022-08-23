@@ -144,12 +144,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-19T16:57:00.674Z",
-    "modified": "2022-08-22T18:52:35.530Z",
+    "modified": "2022-08-23T23:35:12.028Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"mirtha\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"mirtha@mail.com\",\n    \"password\" : \"121212\"\n  }\n}",
+      "raw": "{\n  \"name\": \"pedro\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"pedro@gmail.com\",\n    \"password\" : \"23 23 23\"\n  }\n}",
       "form": []
     },
     "tests": []
@@ -215,12 +215,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-19T20:01:47.266Z",
-    "modified": "2022-08-19T23:37:28.394Z",
+    "modified": "2022-08-23T23:44:56.071Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\":\"producto 17\",\n  \"price\": 122,\n  \"description\":\" producto 17\",\n  \"image\":\"http:/placeing.com/640/480\",\n  \"categoryId\": 3\n}",
+      "raw": "{\n  \"name\":\"producto 33\",\n  \"price\": 122,\n  \"description\":\" producto 17\",\n  \"image\":\"http:/placeing.com/640/480\",\n  \"categoryId\": 3\n}",
       "form": []
     },
     "tests": []
@@ -290,12 +290,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-19T21:06:26.253Z",
-    "modified": "2022-08-19T21:17:20.396Z",
+    "modified": "2022-08-23T23:39:07.659Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"customerId\": 1\n}\n",
+      "raw": "{\n  \"customerId\": 2\n}\n",
       "form": []
     },
     "tests": []
@@ -309,12 +309,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-08-19T23:03:24.792Z",
-    "modified": "2022-08-19T23:07:16.644Z",
+    "modified": "2022-08-23T23:46:05.389Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orderId\": 4,\n  \"productId\": 2,\n  \"amount\":3\n}",
+      "raw": "{\n  \"orderId\": 4,\n  \"productId\": 3,\n  \"amount\":3\n}",
       "form": []
     },
     "tests": []
@@ -543,6 +543,29 @@
     "created": "2022-08-23T22:51:49.656Z",
     "modified": "2022-08-23T22:52:37.049Z",
     "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY2MTI5MzY1OX0.wdaIuUjWh_dsDqcmz4nKcqOH0L-lHqgj6GwszW6ezFg"
+    },
+    "tests": []
+  },
+  {
+    "_id": "2d8d3f4a-31e5-4ffe-87c4-ffeb62731e6a",
+    "colId": "640bd05d-aba2-4218-98df-ed672bc1b946",
+    "containerId": "",
+    "name": "Get Orders",
+    "url": "{{HostEndpoint}}/profile/my-orders",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-08-23T23:24:00.857Z",
+    "modified": "2022-08-23T23:28:27.769Z",
+    "headers": [
+      {
+        "name": "api",
+        "value": "33234"
+      }
+    ],
     "params": [],
     "auth": {
       "type": "bearer",

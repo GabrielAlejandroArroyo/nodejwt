@@ -23,3 +23,8 @@ npm install jsonwebtoken
 https://jwt.io/#debugger-io
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY2MTIwMzk2NX0.mfVrouXGGWsYpo2a_THYfrXT7LojCbysK2_UOpHNVag
+
+
+Pagina de generacion de Key
+
+http://keygen.io/

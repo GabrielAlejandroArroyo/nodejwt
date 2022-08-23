@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-09T23:10:44.113Z",
-    "modified": "2022-08-22T18:45:03.957Z",
+    "modified": "2022-08-23T22:24:12.692Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"superAdmin@gmail.com\",\n  \"password\": \"12345678 .2020\",\n  \"role\":\"admin\"\n}",
+      "raw": "{\n  \"email\": \"pedro@gmail.com\",\n  \"password\": \"23 23 23\",\n  \"role\":\"customer\"\n}",
       "form": []
     },
     "tests": []
@@ -442,7 +442,7 @@
     "_id": "ce97d659-c398-4195-bddc-59398782fc53",
     "colId": "640bd05d-aba2-4218-98df-ed672bc1b946",
     "containerId": "",
-    "name": "Post Login",
+    "name": "Post Login Admin",
     "url": "{{HostEndpoint}}/auth/login",
     "method": "POST",
     "sortNum": 10000,
@@ -459,6 +459,76 @@
       "type": "json",
       "raw": "{\n  \"email\":\"superAdmin@gmail.com\",\n  \"password\": \"12345678 .2020\"\n}",
       "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "68c03092-5e94-4c24-94ca-c2108b39a813",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Create Categorie con jwt admin",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-08-23T21:52:53.754Z",
+    "modified": "2022-08-23T22:21:41.699Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"New Category 3\",\n  \"image\":\"http://placeimg.com/640/480\"\n}\n",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2MTIwNTY1MX0.kvwl-PpE5tcBVfFvFjloWZONUTd2CR2Uatbjka_WmVI"
+    },
+    "tests": []
+  },
+  {
+    "_id": "c86632ae-9dbb-40cd-bf0a-0c72f483cd34",
+    "colId": "640bd05d-aba2-4218-98df-ed672bc1b946",
+    "containerId": "",
+    "name": "Post Login Customer",
+    "url": "{{HostEndpoint}}/auth/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-23T22:22:36.365Z",
+    "modified": "2022-08-23T22:25:06.314Z",
+    "headers": [
+      {
+        "name": "api",
+        "value": "33234"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"pedro@gmail.com\",\n  \"password\": \"23 23 23\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2bb6df03-ccce-4bfd-b100-e30b5d5f443c",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Create Categorie con jwt customer",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-08-23T22:25:52.983Z",
+    "modified": "2022-08-23T22:28:51.679Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"New Category 3\",\n  \"image\":\"http://placeimg.com/640/480\"\n}\n",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY2MTI5MzY1OX0.wdaIuUjWh_dsDqcmz4nKcqOH0L-lHqgj6GwszW6ezFg"
     },
     "tests": []
   }

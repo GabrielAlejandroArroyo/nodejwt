@@ -28,3 +28,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInJvbGUiOiJjdXN0b21lciIsImlhdCI
 Pagina de generacion de Key
 
 http://keygen.io/
+
+
+
+estartegia passport-jwt
+
+npm install passport-jwt

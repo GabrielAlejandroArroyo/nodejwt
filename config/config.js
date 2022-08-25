@@ -7,8 +7,10 @@ const config = {
   dbUrl: process.env.DATABASE_URL,
   apikey: process.env.API_KEY,
   jwtSecret: process.env.JWT_SECRET,
-  api_gmail: process.env.API_GMAIL,
-  admin_mail: process.env.ADMIN_MAIL
+  smtpEmail: process.env.ADMIN_MAIL,
+  smtpPassword: process.env.API_GMAIL,
+  //api_gmail: process.env.API_GMAIL,
+  //admin_mail: process.env.ADMIN_MAIL
 }
 
 module.exports = { config };

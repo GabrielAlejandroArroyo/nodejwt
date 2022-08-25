@@ -572,5 +572,24 @@
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY2MTI5MzY1OX0.wdaIuUjWh_dsDqcmz4nKcqOH0L-lHqgj6GwszW6ezFg"
     },
     "tests": []
+  },
+  {
+    "_id": "800e9aee-05fe-4a14-8bd5-ba27fa16c7b4",
+    "colId": "640bd05d-aba2-4218-98df-ed672bc1b946",
+    "containerId": "",
+    "name": "Post Recovey password",
+    "url": "{{HostEndpoint}}/auth/recovery",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-08-25T19:26:00.350Z",
+    "modified": "2022-08-25T22:36:07.390Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\":\"gabriel.arroyo@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

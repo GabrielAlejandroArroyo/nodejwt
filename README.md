@@ -50,3 +50,7 @@ https://nodemailer.com/about/
 
 
 npm install nodemailer
+
+
+docker-compose up -d postgres
+docker-compose up -d pgadmin

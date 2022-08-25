@@ -39,3 +39,14 @@ npm install passport-jwt
 Libreria para manejo de access control
 
 https://www.npmjs.com/package/accesscontrol
+
+
+
+Envio de Correos 
+
+nodemailer
+
+https://nodemailer.com/about/
+
+
+npm install nodemailer
